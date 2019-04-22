@@ -6,6 +6,12 @@
  * (c) 2013-2017 Travis Dent <tcdent@gmail.com>
  */
 
+namespace Relief\RestClient;
+
+use Exception;
+use Iterator;
+use ArrayAccess;
+
 class RestClientException extends Exception {}
 
 class RestClient implements Iterator, ArrayAccess {
